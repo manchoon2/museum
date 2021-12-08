@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="master.css">
+    <!---AOS CSS--->
+    <link rel="stylesheet" href="aos.css">
+    <!---AOS CSS--->
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="menu">
+          <ul>
+            <li><a onclick="fnMove('1')">menu1</a></li>
+            <li><a onclick="fnMove('2')">menu2</a></li>
+            <li><a onclick="fnMove('3')">menu3</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <section>
+    <div class="top" id="anchor1" data-aos="fade-up">
+      <div class="">
+
+      </div>
+    </div>
+
+    <div class="mid" id="anchor2" data-aos="fade-up">
+      <div class="">
+      </div>
+    </div>
+
+    <div class="bottom" id="anchor3" data-aos="fade-up">
+      <div class="">
+
+      </div>
+    </div>
+    </section>
+
+    <footer>
+
+    </footer>
+
+
+
+    <!--AOS 스트립트 적용 부문 시작-->
+    <script src="aos.js"></script>
+    <script>
+    AOS.init({
+      easing: 'ease-in-out-sine'
+    });
+    </script>
+    <!--AOS 스트립트 적용 부문 끝-->
+
+    <!--특정위치로 쩜프해서 이동 시작-->
+    <script type="text/javascript" src="jquery-latest.js"></script>
+    <script>
+      function fnMove(seq){
+          var offset = $("#anchor" + seq).offset();
+          $('html, body').animate({scrollTop : offset.top},500);
+      }
+    </script>
+    <!--특정위치로 쩜프해서 이동 시작-->
+  </body>
+</html>

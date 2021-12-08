@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Verner Panton Museum</title>
+    <link rel="stylesheet" href="master.css">
+    <link rel="stylesheet" href="aos.css">
+
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li class="menu_1"><a href="index.html"><img src="img/01_logo.png" alt="logo"></a></li>
+          <li class="menu_2"></li>
+          <li class="menu_3"><a href="sub01.html">Light</a></li>
+          <li class="menu_4"><a href="sub02.html">Furniture</a></li>
+          <li class="menu_5"><a href="sub03.html">Introduce</a></li>
+          <li class="menu_6"><a href="sub04.html">Space</a></li>
+
+        </ul>
+      </nav>
+    </header>
+    <section>
+    <div class="main"></div>
+    <div class="content" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
+        <div class="title">
+          <img src="img/02_title.png" alt="color is more important than form">
+        </div>
+    </div>
+        <div class="content" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
+        <div class="name">
+          <div class="name1">
+
+            <span style="font-size:56pt;font-weight: 300;">Verner Panton        </span>1926.02.13 - 1988.09.05
+          </div>
+
+        </div>
+      </div>
+        <div class="content" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
+        <div class="arrow">
+          <a href="#target" class="scroll"><img src="img/arrow.png" alt="arrow"></a>
+        </div>
+      </div>
+      <div id="target"></div>
+    <div class="content">
+
+      <div class="tq">
+        <div class="buttbg"></div>
+
+          <div class="container" data-aos="flip-left">
+            <div class="wrap_total">
+              <div class="wrap1">
+                <div class="null">
+                  <img src="img/about.png" alt="about">
+                </div>
+                <div class="button_01">
+                  <a href="sub01.html"><img src="img/null.png" alt="null"></a>
+                </div>
+                <div class="button_02">
+                  <a href="sub02.html"><img src="img/null.png" alt="null"></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="wrap_total">
+                  <div class="wrap2">
+                    <div class="button_03">
+                      <a href="sub03.html"><img src="img/null.png" alt="null"></a>
+                    </div>
+                    <div class="button_04">
+                      <a href="sub04.html"><img src="img/null.png" alt="null"></a>
+                    </div>
+                    <div class="null">
+                      <img src="img/panton.png" alt="panton">
+                    </div>
+                  </div>
+            </div>
+
+          </div>
+
+      </div>
+    </div>
+
+    </section>
+    <footer>
+      <div class="foot1">
+        TEL: 01097642055<br>
+        E-mail: 0ltmdqlsl0@gmail.com<br>
+        FAX: 01-020-3040<br>
+      </div>
+      <div class="foot2">
+        COPYRIGHT ©2021 PROJ. ALL RIGHTS RESERVED
+      </div>
+      <div class="foot3">
+        <ul>
+          <li class="ft1"><a href="sub01.html">Light</a></li>
+          <li class="ft2"><a href="sub02.html">Furniture</a></li>
+          <li class="ft3"><a href="sub03.html">Introduce</a></li>
+          <li class="ft4"><a href="sub04.html">Space</a></li>
+        </ul>
+      </div>
+    </footer>
+
+    <!--AOS 스트립트 적용 부문 시작-->
+    <script src="aos.js"></script>
+    <script>
+    AOS.init({
+      easing: 'ease-in-out-sine'
+    });
+    </script>
+    <!--AOS 스트립트 적용 부문 끝-->
+    <script>
+    jQuery(document).ready(function($) {
+
+        $(".scroll").click(function(event){
+                event.preventDefault();
+                $('html,body').animate({scrollbottom:$(this.hash).offset().bottom}, 500);
+        });
+      });
+</script>
+  </body>
+</html>

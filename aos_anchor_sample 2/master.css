@@ -1,0 +1,4 @@
+*{margin: 0;padding: 0;}
+.top{height: 500px;background-color: blue;}
+.mid{height: 500px;background-color: red;}
+.bottom{height: 500px;background-color: green;}

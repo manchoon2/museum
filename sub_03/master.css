@@ -1,0 +1,135 @@
+*{margin:0;padding: 0;text-decoration: none;}
+
+header{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    border: 1px solid #707070;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav{
+  width: 1200px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header nav ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header nav ul li{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header nav ul li a{
+  background-color: white;
+
+}
+.menu{
+  font-family: 'Noto Sans KR', sans-serif;
+}
+.menu1{
+width: 330px;
+height: 100px;
+}
+.menu2{
+  width: 514px;
+  height: 100px;
+}
+.menu3{
+  width: 114px;
+  height: 100px;
+}
+.menu4{
+  width: 62px;
+  height: 100px;
+}
+.menu5{
+  width: 120px;
+  height: 100px;
+
+}
+.menu6{
+  width: 60px;
+  height: 100px;
+}
+.main{
+  width: 100%;
+  height: 496px;
+  background-image: url('img/02_bg.png');
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.title{
+  width: 100%;
+  height: 220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 105px;
+  margin-bottom: 105px;
+
+
+}
+.name{
+  width:100%;
+  height:85px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Jost', sans-serif;
+}
+.name1{
+  font-size: 56px;font-weight: 300;
+  text-align: center;
+}
+.name2{
+  font-size: 30px;font-weight: 200;
+  text-align: center;
+}
+.arrow{
+  margin-top: 80px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrap1{
+  width: 1215px;
+  height: 400px;
+}
+.wrap2{
+  width: 1215px;
+  height: 400px;
+}
+.wrap1:hover{
+  
+}
+.wrap2:hover{
+
+}
+.wrap_total{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer{
+  width: 100%;
+  height: 116px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
